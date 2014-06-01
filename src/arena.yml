@@ -1,0 +1,13 @@
+arena:
+  lobby:
+    defined: false
+    world: 0
+    p1: 0
+    p2: 0
+  area:
+    defined: false
+    world: 0
+    p1: 0
+    p2: 0
+  spawns:
+    amount: 0

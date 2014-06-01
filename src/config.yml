@@ -1,0 +1,7 @@
+listItem: 359
+defaultTimeLimit: 3
+MinimumPlayer: 3
+AutoStart: false
+
+Commandwhitelist:
+ -ftx

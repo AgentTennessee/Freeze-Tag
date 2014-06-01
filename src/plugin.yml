@@ -1,0 +1,28 @@
+name: FreezeTagX
+main: me.dimensio.ftx.FreezeTag
+version: 1.5
+author: DimensioX
+description: It's the childhood game of freezetag. Reimagined in minecraft.
+commands:
+  ftx:
+    description: Interact with FreezeTagX
+    aliases:
+      - ft
+      - freezetag
+      - ftx
+permissions:
+  ftx.admin.*:
+    default: op
+    children:
+      ftx.admin.reg: true
+      ftx.admin.begin: true
+      ftx.admin.cancel: true
+      ftx.admin.define: true
+      ftx.admin.generate: true
+      ftx.admin.freeze: true
+      ftx.admin.forcereg: true
+      ftx.admin.endgame: true
+      ftx.admin.delete: true
+  ftx.users.*:
+    children:
+      ftx.users.join: true
